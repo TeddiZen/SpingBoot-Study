@@ -38,4 +38,10 @@ class MybatisFirstApplicationTests {
         int delUser = userMapper.del("10086");
         System.out.println("Deletde-----" + delUser);
     }
+
+    @Test
+    void searchUser(){
+        User user = userMapper.getUser("4");
+        System.out.println(user);
+    }
 }

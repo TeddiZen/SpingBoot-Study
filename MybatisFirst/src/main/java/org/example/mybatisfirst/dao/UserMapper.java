@@ -18,4 +18,7 @@ public interface UserMapper {
 
     @Delete("delete from employee where id = #{id}")
     int del(String id);
+
+    @Select("select * from employee where id = #{id}")
+    User getUser(@Param("id") String id);
 }
