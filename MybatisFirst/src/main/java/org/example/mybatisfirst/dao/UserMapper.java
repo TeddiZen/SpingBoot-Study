@@ -1,14 +1,21 @@
 package org.example.mybatisfirst.dao;
 
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.example.mybatisfirst.pojo.User;
 
 import java.util.List;
 
 @Mapper
 public interface UserMapper {
-    // 查询年龄小于30岁的员工筛选学历本科的员工，年龄从大到小排序，姓名以张开头的员工
     @Select("select * from employee where age < 30 and education = '本科' and name like '张%' and gender = '男' order by age desc")
     List<User> getUserList();
+
+    @Insert("insert into employee(id, name, age, gender, department, position, education, hire_date, join_time, phone) values (#{id}, #{name}, #{age}, #{gender}, #{department}, #{position}, #{education}, #{hireDate}, #{joinTime}, #{phone})")
+    void add(User user);
+
+    @Update("update employee set department=#{department}, position=#{position}, join_time=#{joinTime} where id=#{id}")
+    void update(@Param("id") String id, @Param("department") String department, @Param("position") String position, @Param("joinTime") String joinTime);
+
+    @Delete("delete from employee where id = #{id}")
+    int del(String id);
 }
