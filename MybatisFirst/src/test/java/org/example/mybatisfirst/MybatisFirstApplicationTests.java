@@ -44,4 +44,10 @@ class MybatisFirstApplicationTests {
         User user = userMapper.getUser("4");
         System.out.println(user);
     }
+
+    @Test
+    void searchId(){
+        User user = userMapper.searchById("8");
+        System.out.println(user);
+    }
 }

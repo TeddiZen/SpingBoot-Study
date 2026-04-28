@@ -21,4 +21,6 @@ public interface UserMapper {
 
     @Select("select * from employee where id = #{id}")
     User getUser(@Param("id") String id);
+
+    User searchById(@Param("id") String id);
 }
