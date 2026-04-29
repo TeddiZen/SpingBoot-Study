@@ -50,4 +50,10 @@ class MybatisFirstApplicationTests {
         User user = userMapper.searchById("8");
         System.out.println(user);
     }
+
+    @Test
+    void addUser(){
+        User user = new User("10088", "b趣味", 59, "男", "回家部", "回家", "本科", "2022-02-14", new Date().toString(), "13611263310");
+        userMapper.addUser(user);
+    }
 }

@@ -8,4 +8,7 @@
     <select id="searchById" resultType="org.example.mybatisfirst.pojo.User">
         SELECT * FROM employee WHERE id = #{id}
     </select>
+    <insert id="addUser" parameterType="org.example.mybatisfirst.pojo.User">
+        insert into employee(id, name, age, gender, department, position, education, hire_date, join_time, phone) values (#{id}, #{name}, #{age}, #{gender}, #{department}, #{position}, #{education}, #{hireDate}, #{joinTime}, #{phone})
+    </insert>
 </mapper>

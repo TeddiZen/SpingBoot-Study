@@ -23,4 +23,6 @@ public interface UserMapper {
     User getUser(@Param("id") String id);
 
     User searchById(@Param("id") String id);
+
+    void addUser(User user);
 }
