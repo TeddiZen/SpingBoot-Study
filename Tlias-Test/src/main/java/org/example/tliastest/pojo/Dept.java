@@ -6,6 +6,10 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
+/**
+ * 定义用户数据类
+ */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
