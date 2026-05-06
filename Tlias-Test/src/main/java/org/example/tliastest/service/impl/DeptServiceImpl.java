@@ -7,6 +7,8 @@ import org.example.tliastest.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.List;
 
 
@@ -24,5 +26,13 @@ public class DeptServiceImpl implements DeptService {
     @Override
     public void delDept(int id) {
         deptMapper.delList(id);
+    }
+
+    @Override
+    public void addDept(Dept dept){
+        LocalDateTime dateNow = LocalDateTime.now();
+        dept.setCreateTime(dateNow);
+        dept.setUpdateTime(dateNow);
+        deptMapper.addList(dept);
     }
 }
