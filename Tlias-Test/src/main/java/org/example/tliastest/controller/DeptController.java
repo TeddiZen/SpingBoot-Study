@@ -44,4 +44,13 @@ public class DeptController {
         deptService.addDept(dept);
         return Result.success();
     }
+
+    /**
+     * 请求回显 部门数据
+     */
+    @GetMapping("depts/{id}")
+    public Result getList(@PathVariable int id){
+        Dept dept = deptService.getDept(id);
+        return Result.success(dept);
+    }
 }

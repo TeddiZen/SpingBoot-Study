@@ -9,4 +9,5 @@ public interface DeptService {
     public List<Dept> findAll();
     public void delDept(int id);
     public void addDept(Dept dept);
+    public Dept getDept(int id);
 }
