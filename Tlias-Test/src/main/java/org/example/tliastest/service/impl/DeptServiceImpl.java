@@ -40,4 +40,11 @@ public class DeptServiceImpl implements DeptService {
     public Dept getDept(int id){
         return deptMapper.getList(id);
     }
+
+    @Override
+    public void putDept(Dept dept){
+        LocalDateTime dateNow = LocalDateTime.now();
+        dept.setUpdateTime(dateNow);
+        deptMapper.putList(dept);
+    }
 }

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.naming.Name;
 import java.util.List;
 
+@RequestMapping("/depts")
 @RestController
 public class DeptController {
     @Autowired
@@ -18,8 +19,7 @@ public class DeptController {
     /**
      * 查询所有部门数据
      */
-    @GetMapping("/depts")
-    @RequestMapping(value = "/depts", method = RequestMethod.GET)
+    @RequestMapping(value = "", method = RequestMethod.GET)
     public Result list() {
         System.out.println("查询所有部门数据");
         List<Dept> depts = deptService.findAll();
@@ -29,7 +29,7 @@ public class DeptController {
     /**
      * 删除id对应的部门数据
      */
-    @DeleteMapping("/depts")
+    @DeleteMapping("")
     public Result delList(@RequestParam("id") int id){
         deptService.delDept(id);
         System.out.println("删除id为" + id + "的部门");
@@ -39,7 +39,7 @@ public class DeptController {
     /**
      * 添加部门数据
      */
-    @PostMapping("depts")
+    @PostMapping("")
     public Result addList(@RequestBody Dept dept){
         deptService.addDept(dept);
         return Result.success();
@@ -48,9 +48,18 @@ public class DeptController {
     /**
      * 请求回显 部门数据
      */
-    @GetMapping("depts/{id}")
+    @GetMapping("/{id}")
     public Result getList(@PathVariable int id){
         Dept dept = deptService.getDept(id);
         return Result.success(dept);
+    }
+
+    /**
+     * 修改部门数据
+     */
+    @PutMapping("")
+    public Result putList(@RequestBody Dept dept){
+        deptService.putDept(dept);
+        return Result.success();
     }
 }

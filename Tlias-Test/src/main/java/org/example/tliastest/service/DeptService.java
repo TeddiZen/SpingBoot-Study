@@ -10,4 +10,5 @@ public interface DeptService {
     public void delDept(int id);
     public void addDept(Dept dept);
     public Dept getDept(int id);
+    public void putDept(Dept dept);
 }
