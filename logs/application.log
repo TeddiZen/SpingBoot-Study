@@ -1,0 +1,66 @@
+2026-05-08 18:29:05.264 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 48716 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-08 18:29:05.267 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-08 18:29:05.945 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-08 18:29:05.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-08 18:29:05.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-08 18:29:05.956 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-08 18:29:05.992 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 698 ms
+2026-05-08 18:29:06.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-08 18:29:06.331 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-08 18:29:06.335 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.466 seconds (process running for 1.89)
+2026-05-08 18:29:35.209 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-08 18:29:35.270 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-08 18:36:34.355 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 19336 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-08 18:36:34.358 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-08 18:36:34.879 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-08 18:36:34.885 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-08 18:36:34.886 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-08 18:36:34.886 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-08 18:36:34.989 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 605 ms
+2026-05-08 18:36:35.273 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-08 18:36:35.291 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-08 18:36:35.295 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.303 seconds (process running for 1.693)
+2026-05-08 18:36:45.384 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-08 18:36:45.384 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-08 18:36:45.386 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-05-08 18:36:45.417 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据
+2026-05-08 18:36:45.432 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-08 18:36:45.760 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72816810
+2026-05-08 18:36:45.761 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-08 18:36:45.830 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据成功
+2026-05-08 18:43:05.723 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-08 18:43:05.792 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-08 18:43:05.795 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-08 18:43:05.799 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-08 18:43:08.563 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 44472 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-08 18:43:08.565 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-08 18:43:09.074 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-08 18:43:09.081 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-08 18:43:09.082 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-08 18:43:09.083 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-08 18:43:09.119 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 526 ms
+2026-05-08 18:43:09.405 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-08 18:43:09.416 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-08 18:43:09.421 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.224 seconds (process running for 1.591)
+2026-05-08 18:43:23.304 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-08 18:43:23.304 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-08 18:43:23.305 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-08 18:43:23.338 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据
+2026-05-08 18:43:23.350 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-08 18:43:23.581 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a787d0f
+2026-05-08 18:43:23.583 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-08 18:43:23.632 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据成功
+2026-05-08 18:43:29.645 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.DeptController - 添加部门成功
+2026-05-08 18:43:29.656 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据
+2026-05-08 18:43:29.663 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据成功
+2026-05-08 18:43:35.085 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.DeptController - 查询id为14的部门数据成功
+2026-05-08 18:43:38.991 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.DeptController - 修改部门数据成功
+2026-05-08 18:43:39.000 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据
+2026-05-08 18:43:39.005 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据成功
+2026-05-08 18:43:45.391 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.DeptController - 删除id为6的部门成功
+2026-05-08 18:43:45.399 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据
+2026-05-08 18:43:45.402 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据成功
+2026-05-08 18:44:33.734 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-08 18:44:33.803 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-08 18:44:33.806 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-08 18:44:33.811 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,15 +1,15 @@
 package org.example.tliastest.controller;
 
-import jakarta.servlet.http.HttpServletRequest;
+import lombok.extern.slf4j.Slf4j;
 import org.example.tliastest.pojo.Dept;
 import org.example.tliastest.pojo.Result;
 import org.example.tliastest.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.naming.Name;
 import java.util.List;
 
+@Slf4j
 @RequestMapping("/depts")
 @RestController
 public class DeptController {
@@ -21,8 +21,9 @@ public class DeptController {
      */
     @RequestMapping(value = "", method = RequestMethod.GET)
     public Result list() {
-        System.out.println("查询所有部门数据");
+        log.info("查询所有部门数据");
         List<Dept> depts = deptService.findAll();
+        log.info("查询所有部门数据成功");
         return Result.success(depts);
     }
 
@@ -32,7 +33,7 @@ public class DeptController {
     @DeleteMapping("")
     public Result delList(@RequestParam("id") int id){
         deptService.delDept(id);
-        System.out.println("删除id为" + id + "的部门");
+        log.info("删除id为{}的部门成功", id);
         return Result.success();
     }
 
@@ -42,6 +43,7 @@ public class DeptController {
     @PostMapping("")
     public Result addList(@RequestBody Dept dept){
         deptService.addDept(dept);
+        log.info("添加部门成功");
         return Result.success();
     }
 
@@ -51,6 +53,7 @@ public class DeptController {
     @GetMapping("/{id}")
     public Result getList(@PathVariable int id){
         Dept dept = deptService.getDept(id);
+        log.info("查询id为{}的部门数据成功", id);
         return Result.success(dept);
     }
 
@@ -60,6 +63,7 @@ public class DeptController {
     @PutMapping("")
     public Result putList(@RequestBody Dept dept){
         deptService.putDept(dept);
+        log.info("修改部门数据成功");
         return Result.success();
     }
 }
