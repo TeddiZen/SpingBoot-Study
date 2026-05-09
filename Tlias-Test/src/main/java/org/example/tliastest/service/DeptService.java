@@ -1,7 +1,6 @@
 package org.example.tliastest.service;
 
 import org.example.tliastest.pojo.Dept;
-import org.example.tliastest.pojo.Result;
 
 import java.util.List;
 
