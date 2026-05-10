@@ -20,8 +20,8 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- 每天日志命名 -->
             <fileNamePattern>${LOG_PATH}/application-%d{yyyy-MM-dd}.log</fileNamePattern>
-            <!-- 保留15天 -->
-            <MaxHistory>15</MaxHistory>
+            <!-- 保留7天 -->
+            <MaxHistory>7</MaxHistory>
             <!-- 总日志最大2GB -->
             <totalSizeCap>2GB</totalSizeCap>
         </rollingPolicy>
