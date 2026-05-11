@@ -12,7 +12,7 @@ public interface EmpMapper {
             "FROM emp e " +
             "LEFT JOIN dept d ON e.dept_id = d.id " +
             "LIMIT #{start}, #{pageSize}")
-    List<Emp> selectAll(Integer start, Integer pageSize);
+    List<Emp> selectAll();
 
     @Select("SELECT COUNT(*) FROM emp e LEFT JOIN dept d ON e.dept_id = d.id")
     Integer selectCount();

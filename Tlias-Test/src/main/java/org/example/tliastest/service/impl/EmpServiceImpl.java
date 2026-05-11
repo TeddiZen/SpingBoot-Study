@@ -1,5 +1,7 @@
 package org.example.tliastest.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.example.tliastest.mapper.EmpMapper;
 import org.example.tliastest.pojo.Emp;
 import org.example.tliastest.pojo.PageResult;
@@ -16,10 +18,10 @@ public class EmpServiceImpl implements EmpService {
 
     @Override
     public PageResult getEmp(Integer page, Integer pageSize){
-        Integer start = ( page - 1 ) * pageSize;
-        List<Emp> emps = empMapper.selectAll(start, pageSize);
-        Integer count = empMapper.selectCount();
-        PageResult res = new PageResult(count, emps);
+        PageHelper.startPage(page, pageSize);
+        List<Emp> emps = empMapper.selectAll();
+        PageInfo<Emp> pageInfo = new PageInfo<>(emps);
+        PageResult res = new PageResult(pageInfo.getTotal(),pageInfo.getList());
         return res;
     }
 }
