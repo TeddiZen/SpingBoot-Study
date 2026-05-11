@@ -10,6 +10,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PageResult {
-    private Integer total;
+    private Long total;
     private List<Emp> rows;
 }

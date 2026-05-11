@@ -10,8 +10,7 @@ import java.util.List;
 public interface EmpMapper {
     @Select("SELECT e.*, d.name deptName " +
             "FROM emp e " +
-            "LEFT JOIN dept d ON e.dept_id = d.id " +
-            "LIMIT #{start}, #{pageSize}")
+            "LEFT JOIN dept d ON e.dept_id = d.id ")
     List<Emp> selectAll();
 
     @Select("SELECT COUNT(*) FROM emp e LEFT JOIN dept d ON e.dept_id = d.id")
