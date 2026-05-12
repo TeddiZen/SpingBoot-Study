@@ -3,16 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for MybatisFirst" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../Program/apache-maven-3.9.15/mvn-repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
-          <entry name="$PROJECT_DIR$/../../Program/apache-maven-3.9.15/mvn-repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
-        </processorPath>
-        <module name="MybatisFirst" />
-      </profile>
       <profile name="Annotation profile for Tlias-Test" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -21,6 +11,7 @@
           <entry name="$PROJECT_DIR$/../../Program/apache-maven-3.9.15/mvn-repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="Tlias-Test" />
+        <module name="MybatisFirst" />
       </profile>
     </annotationProcessing>
   </component>
