@@ -3,6 +3,7 @@ package org.example.tliastest.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.example.tliastest.mapper.EmpMapper;
 import org.example.tliastest.pojo.Emp;
+import org.example.tliastest.pojo.EmpQueryParam;
 import org.example.tliastest.pojo.PageResult;
 import org.example.tliastest.pojo.Result;
 import org.example.tliastest.service.EmpService;
@@ -27,10 +28,9 @@ public class EmpController {
      * @param pageSize
      */
     @GetMapping
-    public Result getEmp(@RequestParam(defaultValue = "1") Integer page,
-                         @RequestParam(defaultValue = "10") Integer pageSize){
-         log.info("分页查询：页码{}, 行数{}" ,page, pageSize);
-         PageResult res = empService.getEmp(page, pageSize);
+    public Result getEmp(EmpQueryParam empQueryParam){
+         log.info("分页查询" , empQueryParam);
+         PageResult res = empService.getEmp(empQueryParam);
          log.info("分页查询完成");
          return Result.success(res);
     }

@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.example.tliastest.mapper.EmpMapper;
 import org.example.tliastest.pojo.Emp;
+import org.example.tliastest.pojo.EmpQueryParam;
 import org.example.tliastest.pojo.PageResult;
 import org.example.tliastest.service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +18,9 @@ public class EmpServiceImpl implements EmpService {
     EmpMapper empMapper;
 
     @Override
-    public PageResult getEmp(Integer page, Integer pageSize){
-        PageHelper.startPage(page, pageSize);
-        List<Emp> emps = empMapper.selectAll();
+    public PageResult getEmp(EmpQueryParam emp){
+        PageHelper.startPage(emp.getPage(), emp.getPageSize());
+        List<Emp> emps = empMapper.selectAll(emp);
         PageInfo<Emp> pageInfo = new PageInfo<>(emps);
         PageResult res = new PageResult(pageInfo.getTotal(),pageInfo.getList());
         return res;
