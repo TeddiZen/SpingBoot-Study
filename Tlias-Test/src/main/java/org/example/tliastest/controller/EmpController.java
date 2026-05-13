@@ -8,10 +8,7 @@ import org.example.tliastest.pojo.PageResult;
 import org.example.tliastest.pojo.Result;
 import org.example.tliastest.service.EmpService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -33,5 +30,12 @@ public class EmpController {
          PageResult res = empService.getEmp(empQueryParam);
          log.info("分页查询完成");
          return Result.success(res);
+    }
+
+    @PostMapping
+    public Result addEmp(@RequestBody Emp emp){
+        log.info("添加员工：{}", emp);
+        empService.addEmp(emp);
+        return Result.success();
     }
 }

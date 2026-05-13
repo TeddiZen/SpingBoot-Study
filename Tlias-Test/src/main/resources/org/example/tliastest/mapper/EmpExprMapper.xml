@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace 对应你的 Mapper 接口全类名 -->
+<mapper namespace="org.example.tliastest.mapper.EmpExprMapper">
+    <insert id="insertEmpExpr" parameterType="org.example.tliastest.pojo.EmpExpr">
+        INSERT INTO emp_expr (emp_id, begin, end, company, job) VALUES (#{empId}, #{begin}, #{end}, #{company}, #{job})
+    </insert>
+</mapper>
