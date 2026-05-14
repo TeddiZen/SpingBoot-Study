@@ -1,7 +1,6 @@
 package org.example.tliastest.controller;
 
 import lombok.extern.slf4j.Slf4j;
-import org.example.tliastest.mapper.EmpMapper;
 import org.example.tliastest.pojo.Emp;
 import org.example.tliastest.pojo.EmpQueryParam;
 import org.example.tliastest.pojo.PageResult;
