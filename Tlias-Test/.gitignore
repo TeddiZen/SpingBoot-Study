@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# 忽略AccessKey文件
+AcsessKey
+
+# 日志目录
+logs/
