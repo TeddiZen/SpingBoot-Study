@@ -395,3 +395,88 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 2026-05-14 18:24:23.963 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
 2026-05-14 18:24:23.976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-05-14 18:24:23.980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-14 23:23:15.260 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 13064 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-14 23:23:15.262 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-14 23:23:15.866 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-14 23:23:15.874 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:23:15.875 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-14 23:23:15.875 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-14 23:23:15.912 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 622 ms
+2026-05-14 23:23:16.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:23:16.328 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-14 23:23:16.331 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.488 seconds (process running for 1.939)
+2026-05-14 23:24:43.467 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-14 23:24:43.467 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-14 23:24:43.469 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-05-14 23:24:43.492 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-05-14 23:24:43.497 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-05-14 23:26:00.076 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-14 23:26:00.148 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-14 23:26:01.714 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 51216 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-14 23:26:01.716 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-14 23:26:02.240 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-14 23:26:02.246 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:26:02.247 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-14 23:26:02.248 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-14 23:26:02.279 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 534 ms
+2026-05-14 23:26:02.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:26:02.616 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-14 23:26:02.618 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.253 seconds (process running for 1.624)
+2026-05-14 23:26:15.537 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-14 23:26:15.537 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-14 23:26:15.538 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-14 23:26:15.553 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-05-14 23:26:15.556 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-05-14 23:27:18.575 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-14 23:27:18.654 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-14 23:27:20.133 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 5728 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-14 23:27:20.136 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-14 23:27:20.655 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-14 23:27:20.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:27:20.661 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-14 23:27:20.661 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-14 23:27:20.691 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 529 ms
+2026-05-14 23:27:21.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:27:21.050 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-14 23:27:21.053 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.254 seconds (process running for 1.61)
+2026-05-14 23:27:25.165 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-14 23:27:25.165 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-14 23:27:25.166 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-14 23:27:25.259 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-05-14 23:27:25.263 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-05-14 23:28:45.440 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-14 23:28:45.511 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-14 23:28:47.089 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 2628 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-14 23:28:47.092 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-14 23:28:47.623 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-14 23:28:47.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:28:47.629 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-14 23:28:47.629 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-14 23:28:47.660 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 542 ms
+2026-05-14 23:28:47.975 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-14 23:28:48.006 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-14 23:28:48.010 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.248 seconds (process running for 1.596)
+2026-05-14 23:28:53.197 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-14 23:28:53.197 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-14 23:28:53.198 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-14 23:28:53.301 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.UploadController - 上传文件: 动画风格 (8).png
+2026-05-14 23:28:57.280 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.UploadController - 上传成功: https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/54ca36a0-c952-46fa-870b-ade6413f84c1.png
+2026-05-14 23:30:01.216 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据
+2026-05-14 23:30:01.226 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-05-14 23:30:01.237 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-14 23:30:01.537 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26bf65b7
+2026-05-14 23:30:01.539 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-14 23:30:01.625 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据成功
+2026-05-14 23:30:01.635 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-05-14 23:30:52.931 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.UploadController - 上传文件: 动画风格 (1).png
+2026-05-14 23:31:43.700 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.UploadController - 上传成功: https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/1f1a1d20-e184-4770-95f3-a8f02b3b8df8.png
+2026-05-14 23:31:50.296 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.UploadController - 上传文件: inedit_1751625933439.jpg
+2026-05-14 23:31:51.076 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.UploadController - 上传成功: https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/0a9dc459-f0c8-4900-bf61-184809ef8e93.jpg
+2026-05-14 23:31:55.696 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 添加员工：Emp(id=null, username=zhangsandan, password=null, name=张三单, gender=1, phone=13800000000, job=3, salary=3000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/0a9dc459-f0c8-4900-bf61-184809ef8e93.jpg, entryDate=2026-05-12, deptId=10, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-05-14 23:31:55.758 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-05-14 23:31:55.770 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-05-14 23:32:00.091 [http-nio-8080-exec-9] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-05-14 23:34:09.184 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据
+2026-05-14 23:34:09.185 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-05-14 23:34:09.188 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.DeptController - 查询所有部门数据成功
+2026-05-14 23:34:09.271 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询完成

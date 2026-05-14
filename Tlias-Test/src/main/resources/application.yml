@@ -2,6 +2,13 @@ spring:
   application:
     name: Tlias-Test
 
+  # 文件上传配置
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB    # 单个文件最大大小
+      max-request-size: 100MB # 请求最大大小
+
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
