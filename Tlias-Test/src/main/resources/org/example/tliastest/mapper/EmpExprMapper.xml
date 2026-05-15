@@ -10,4 +10,42 @@
             (#{expr.empId}, #{expr.begin}, #{expr.end}, #{expr.company}, #{expr.job})
         </foreach>
     </insert>
+    <select id="selectEmpExpr" resultType="org.example.tliastest.pojo.EmpExpr">
+        select emp_id, begin, end, company, job from emp_expr where emp_expr.emp_id = #{id}
+    </select>
+
+    <update id="updateEmpExpr">
+        update emp_expr
+        set
+        `begin` = case id
+        <foreach collection="exprList" item="expr">
+            when #{expr.id} then #{expr.begin}
+        </foreach>
+        else `begin` end,
+
+        `end` = case id
+        <foreach collection="exprList" item="expr">
+            when #{expr.id} then #{expr.end}
+        </foreach>
+        else `end` end,
+
+        company = case id
+        <foreach collection="exprList" item="expr">
+            when #{expr.id} then #{expr.company}
+        </foreach>
+        else company end,
+
+        job = case id
+        <foreach collection="exprList" item="expr">
+            when #{expr.id} then #{expr.job}
+        </foreach>
+        else job end
+
+        where id in
+        <foreach collection="exprList" item="expr" open="(" separator="," close=")">
+            #{expr.id}
+        </foreach>
+    </update>
+
+
 </mapper>

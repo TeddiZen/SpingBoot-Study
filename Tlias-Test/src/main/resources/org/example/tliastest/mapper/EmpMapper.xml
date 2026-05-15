@@ -19,5 +19,15 @@
         </where>
         order by e.entry_date desc
     </select>
-    
+
+    <delete id="delEmp">
+        delete from emp
+        <where>
+            id in <foreach collection="ids" item="id" open="(" close=")" separator=",">
+                #{id}
+            </foreach>
+        </where>
+    </delete>
+    <!-- 上面的删除员工的原始语句是
+         delete from emp where id in (1,2,3) -->
 </mapper>

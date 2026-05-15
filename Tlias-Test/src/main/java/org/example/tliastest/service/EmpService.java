@@ -12,4 +12,10 @@ public interface EmpService {
     public PageResult getEmp(EmpQueryParam empQueryParam);
 
     void addEmp(Emp emp);
+
+    void delEmp(String ids);
+
+    Emp getIdEmp(Integer id);
+
+    void updateEmp(Emp emp);
 }

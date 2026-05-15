@@ -1,6 +1,7 @@
 package org.example.tliastest.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.annotations.Delete;
 import org.example.tliastest.pojo.Emp;
 import org.example.tliastest.pojo.EmpQueryParam;
 import org.example.tliastest.pojo.PageResult;
@@ -35,6 +36,28 @@ public class EmpController {
     public Result addEmp(@RequestBody Emp emp){
         log.info("添加员工：{}", emp);
         empService.addEmp(emp);
+        return Result.success();
+    }
+
+    @DeleteMapping
+    public Result delEmp(String ids){
+        empService.delEmp(ids);
+        log.info("删除员工的id列表：{}", ids);
+        return Result.success();
+    }
+
+    @GetMapping("/{id}")
+    public Result getIdEmp(@PathVariable("id") Integer id){
+        log.info("查询员工的id列表：{}", id);
+        Emp emp = empService.getIdEmp(id);
+        log.info("查询出来的员工的列表：{}", emp);
+        return Result.success(emp);
+    }
+
+    @PutMapping
+    public Result updateEmp(@RequestBody Emp emp){
+        empService.updateEmp(emp);
+        log.info("更新员工：{}", emp);
         return Result.success();
     }
 }

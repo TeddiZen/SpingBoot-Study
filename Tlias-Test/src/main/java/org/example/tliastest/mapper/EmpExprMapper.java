@@ -8,4 +8,6 @@ import java.util.List;
 @Mapper
 public interface EmpExprMapper {
     void insertEmpExpr(List<EmpExpr> exprList);
+    List<EmpExpr> selectEmpExpr(Integer id);
+    void updateEmpExpr(List<EmpExpr> exprList);
 }
