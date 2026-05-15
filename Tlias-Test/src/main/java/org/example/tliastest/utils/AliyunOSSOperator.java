@@ -4,6 +4,7 @@ import com.aliyun.oss.*;
 import com.aliyun.oss.common.auth.CredentialsProviderFactory;
 import com.aliyun.oss.common.auth.EnvironmentVariableCredentialsProvider;
 import com.aliyun.oss.common.comm.SignVersion;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import java.io.ByteArrayInputStream;
 import java.time.LocalDate;
@@ -12,12 +13,15 @@ import java.util.UUID;
 
 @Component
 public class AliyunOSSOperator {
-
-    private String endpoint = "https://oss-cn-guangzhou.aliyuncs.com";
-    private String bucketName = "teddizen-java-tesy";
-    private String region = "cn-guangzhou";
+    @Autowired
+    AliyunOSSProperties ossProperties;
 
     public String upload(byte[] content, String originalFilename) throws Exception {
+
+        String endpoint = ossProperties.getEndpoint();
+        String bucketName = ossProperties.getBucketName();
+        String region = ossProperties.getRegion();
+
         // 从环境变量中获取访问凭证。运行本代码示例之前，请确保已设置环境变量OSS_ACCESS_KEY_ID和OSS_ACCESS_KEY_SECRET。
         EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();
 

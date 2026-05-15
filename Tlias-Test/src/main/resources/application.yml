@@ -21,3 +21,10 @@ mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
+
+  # 阿里云 OSS 配置
+aliyun:
+  oss:
+    bucket-name: teddizen-java-tesy
+    region: cn-guangzhou
+    endpoint: https://oss-cn-guangzhou.aliyuncs.com
