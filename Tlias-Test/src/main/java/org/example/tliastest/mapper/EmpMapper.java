@@ -24,6 +24,5 @@ public interface EmpMapper {
     @Select("select e.*, d.name as deptName from emp e left join dept d on e.dept_id = d.id where e.id = #{id}")
     Emp getIdEmp(Integer id);
 
-    @Update("update emp set username = #{username},password = #{password}, name = #{name}, gender = #{gender}, phone = #{phone}, job = #{job}, salary = #{salary}, image = #{image}, entry_date = #{entryDate}, dept_id = #{deptId}, update_time = #{updateTime} where id = #{id}")
     void updateEmp(Emp emp);
 }

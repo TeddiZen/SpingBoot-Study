@@ -68,11 +68,13 @@ public class EmpServiceImpl implements EmpService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void delEmp(String ids){
         List<Integer> iids = Arrays.stream(ids.split(","))
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
 
+        empExprMapper.delEmpExpr(iids);
         empMapper.delEmp(iids);
     }
 
@@ -97,8 +99,11 @@ public class EmpServiceImpl implements EmpService {
             LocalDateTime date = LocalDateTime.now();
             emp.setUpdateTime(date);
             empMapper.updateEmp(emp);
-            if (!CollectionUtils.isEmpty(emp.getExprList())){
-                empExprMapper.updateEmpExpr(emp.getExprList());
+            empExprMapper.delEmpExpr(Arrays.asList(emp.getId()));
+            List<EmpExpr> exprList = emp.getExprList();
+            if (!CollectionUtils.isEmpty(exprList)){
+                exprList.forEach(expr -> expr.setEmpId(emp.getId()));
+                empExprMapper.insertEmpExpr(exprList);
             }
         } finally {
             EmpLog log = new EmpLog(null, LocalDateTime.now(), "更新员工" + emp);

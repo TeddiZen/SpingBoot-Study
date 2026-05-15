@@ -9,5 +9,5 @@ import java.util.List;
 public interface EmpExprMapper {
     void insertEmpExpr(List<EmpExpr> exprList);
     List<EmpExpr> selectEmpExpr(Integer id);
-    void updateEmpExpr(List<EmpExpr> exprList);
+    void delEmpExpr(List<Integer> iids);
 }
