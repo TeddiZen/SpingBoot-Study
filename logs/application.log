@@ -154,3 +154,31 @@
 2026-05-16 00:27:43.887 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
 2026-05-16 00:27:43.890 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-05-16 00:27:43.894 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-05-16 00:27:46.465 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 47272 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-05-16 00:27:46.467 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-16 00:27:47.030 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-16 00:27:47.037 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-16 00:27:47.038 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-16 00:27:47.038 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-16 00:27:47.071 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 577 ms
+2026-05-16 00:27:47.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-16 00:27:47.446 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-16 00:27:47.450 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.365 seconds (process running for 1.835)
+2026-05-16 00:27:53.576 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-16 00:27:53.576 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-16 00:27:53.577 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-16 00:27:53.603 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：30
+2026-05-16 00:27:53.607 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-16 00:27:53.829 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bb0e4f2
+2026-05-16 00:27:53.830 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-16 00:27:53.922 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=null, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=null, createTime=2023-10-20T16:35:33, updateTime=2023-10-20T16:36:31, deptName=null, exprList=[])
+2026-05-16 00:28:04.223 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 更新员工：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=null, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=null, createTime=2023-10-20T16:35:33, updateTime=2026-05-16T00:28:04.098751800, deptName=null, exprList=[EmpExpr(id=null, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
+2026-05-16 00:28:04.238 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-05-16 00:28:04.289 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-05-16 00:28:06.822 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：30
+2026-05-16 00:28:06.833 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=null, salary=null, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=null, createTime=2023-10-20T16:35:33, updateTime=2026-05-16T00:28:04, deptName=null, exprList=[EmpExpr(id=null, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
+2026-05-16 00:28:16.295 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 更新员工：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=21333, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=10, createTime=2023-10-20T16:35:33, updateTime=2026-05-16T00:28:16.280571400, deptName=null, exprList=[EmpExpr(id=null, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
+2026-05-16 00:28:16.304 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-05-16 00:28:16.314 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-05-16 00:28:17.842 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：30
+2026-05-16 00:28:17.851 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=21333, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=10, createTime=2023-10-20T16:35:33, updateTime=2026-05-16T00:28:16, deptName=人事部, exprList=[EmpExpr(id=null, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
