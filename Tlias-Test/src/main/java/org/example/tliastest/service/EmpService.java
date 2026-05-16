@@ -1,11 +1,9 @@
 package org.example.tliastest.service;
 
-import org.example.tliastest.pojo.Emp;
-import org.example.tliastest.pojo.EmpQueryParam;
-import org.example.tliastest.pojo.PageResult;
-import org.example.tliastest.pojo.Result;
+import org.example.tliastest.pojo.*;
 
 import java.util.List;
+import java.util.Map;
 
 public interface EmpService {
 
@@ -18,4 +16,8 @@ public interface EmpService {
     Emp getIdEmp(Integer id);
 
     void updateEmp(Emp emp);
+
+    JobObjective getJobObjective();
+
+    List<Map<String, Object>> getEmpGenderData();
 }

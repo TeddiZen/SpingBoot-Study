@@ -3,8 +3,10 @@ package org.example.tliastest.mapper;
 import org.apache.ibatis.annotations.*;
 import org.example.tliastest.pojo.Emp;
 import org.example.tliastest.pojo.EmpQueryParam;
+import org.example.tliastest.pojo.JobObjective;
 
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface EmpMapper {
@@ -25,4 +27,8 @@ public interface EmpMapper {
     Emp getIdEmp(Integer id);
 
     void updateEmp(Emp emp);
+
+    List<Map<String, Object>> selectJobObjective();
+
+    List<Map<String, Object>> selectEmpGenderData();
 }

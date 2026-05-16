@@ -20,6 +20,29 @@
         order by e.entry_date desc
     </select>
 
+    <select id="selectJobObjective">
+        select
+            (case job
+                when 1 then '班主任'
+                when 2 then '讲师'
+                when 3 then '学工主管'
+                when 4 then '教研主管'
+                when 5 then '咨询师'
+                else "其他" end)
+            as jobName,
+            count(*) as count
+        from emp group by job order by count
+    </select>
+    <select id="selectEmpGenderData" resultType="java.util.Map">
+        select
+            (case gender
+                when 1 then '男性员工'
+                when 2 then '女性员工'
+                end) as name,
+            count(*) as value
+        from emp group by gender
+    </select>
+
     <delete id="delEmp">
         delete from emp
         <where>

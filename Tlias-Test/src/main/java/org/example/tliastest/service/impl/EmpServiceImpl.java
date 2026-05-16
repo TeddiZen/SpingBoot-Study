@@ -18,10 +18,7 @@ import org.springframework.util.CollectionUtils;
 import java.beans.Transient;
 import java.lang.reflect.Array;
 import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -109,5 +106,20 @@ public class EmpServiceImpl implements EmpService {
             EmpLog log = new EmpLog(null, LocalDateTime.now(), "更新员工" + emp);
             empLogService.insertLog(log);
         }
+    }
+
+    @Override
+    public JobObjective getJobObjective() {
+        List<Map<String, Object>> jobList = empMapper.selectJobObjective();
+        log.info("员工岗位数据: {}", jobList);
+        JobObjective jobObjective = new JobObjective();
+        jobObjective.setJobList(jobList.stream().map(map -> map.get("jobName")).collect(Collectors.toList()));
+        jobObjective.setDataList(jobList.stream().map(map -> map.get("count")).collect(Collectors.toList()));
+        return jobObjective;
+    }
+
+    @Override
+    public List<Map<String, Object>> getEmpGenderData() {
+        return empMapper.selectEmpGenderData();
     }
 }
