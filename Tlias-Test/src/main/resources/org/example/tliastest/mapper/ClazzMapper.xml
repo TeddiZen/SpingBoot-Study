@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace 对应你的 Mapper 接口全类名 -->
+<mapper namespace="org.example.tliastest.mapper.ClazzMapper">
+    <insert id="addClazz" parameterType="org.example.tliastest.pojo.Clazz">
+        insert into clazz(name, room, begin_date, end_date, master_id, subject, create_time, update_time) values(#{name}, #{room}, #{beginDate}, #{endDate}, #{masterId}, #{subject}, #{createTime}, #{updateTime})
+    </insert>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from clazz where id = #{id}
+    </delete>
+    <select id="selectByQueryParam" parameterType="org.example.tliastest.pojo.ClazzQueryParam" resultType="org.example.tliastest.pojo.Clazz">
+        select c.id, c.name, c.room, c.begin_date, c.end_date, c.master_id, c.subject, c.create_time, c.update_time, e.name as masterName from clazz c left join emp e on c.master_id = e.id where c.name like concat('%', #{name}, '%')
+    </select>
+    <select id="selectByPrimaryKey" resultType="org.example.tliastest.pojo.Clazz">
+        select * from clazz where id = #{id}
+    </select>
+    <update id="updateClazz" parameterType="org.example.tliastest.pojo.Clazz">
+        update clazz set name = #{name}, room = #{room}, begin_date = #{beginDate}, end_date = #{endDate}, master_id = #{masterId}, subject = #{subject}, update_time = now() where id = #{id}
+    </update>
+    <select id="selectAll" resultType="org.example.tliastest.pojo.Clazz">
+        select * from clazz
+    </select>
+</mapper>
