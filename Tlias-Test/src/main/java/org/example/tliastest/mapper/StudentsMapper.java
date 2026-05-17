@@ -1,7 +1,9 @@
 package org.example.tliastest.mapper;
 
+import org.apache.ibatis.annotations.MapKey;
 import org.apache.ibatis.annotations.Mapper;
 import org.example.tliastest.pojo.Student;
+import org.example.tliastest.pojo.StudentCountObject;
 import org.example.tliastest.pojo.StudentsQueryParam;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface StudentsMapper {
@@ -24,4 +27,9 @@ public interface StudentsMapper {
     void update(Student student);
 
     void violation(Integer id, Integer score, LocalDateTime updateTime);
+
+    @MapKey("degree")
+    List<Map<String, Object>> getStudentDegreeData();
+
+    List<Map<String, Object>> getStudentCountData();
 }

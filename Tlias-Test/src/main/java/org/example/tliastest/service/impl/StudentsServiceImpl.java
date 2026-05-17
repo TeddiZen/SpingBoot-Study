@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.tliastest.mapper.StudentsMapper;
 import org.example.tliastest.pojo.PageResult;
 import org.example.tliastest.pojo.Student;
+import org.example.tliastest.pojo.StudentCountObject;
 import org.example.tliastest.pojo.StudentsQueryParam;
 import org.example.tliastest.service.StudentsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,9 @@ import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+
+import static java.util.stream.Collectors.toList;
 
 @Service
 public class StudentsServiceImpl implements StudentsService {
@@ -64,5 +68,19 @@ public class StudentsServiceImpl implements StudentsService {
     public void violation(Integer id, Integer score) {
         LocalDateTime now = LocalDateTime.now();
         studentsMapper.violation(id, score, now);
+    }
+
+    @Override
+    public List<Map<String, Object>> getStudentDegreeData() {
+        return studentsMapper.getStudentDegreeData();
+    }
+
+    @Override
+    public StudentCountObject getStudentCountData() {
+        List<Map<String, Object>> studentCountData = studentsMapper.getStudentCountData();
+        StudentCountObject studentCountObject = new StudentCountObject();
+        studentCountObject.setClazzList(studentCountData.stream().map(map -> map.get("clazzName")).toList());
+        studentCountObject.setDataList(studentCountData.stream().map(map -> map.get("count")).toList());
+        return studentCountObject;
     }
 }
