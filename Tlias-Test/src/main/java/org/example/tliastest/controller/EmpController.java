@@ -60,4 +60,15 @@ public class EmpController {
         log.info("更新员工：{}", emp);
         return Result.success();
     }
+
+    /**
+     * 查询所有员工
+     * @return
+     */
+    @GetMapping("/list")
+    public Result getEmpList(){
+        List<Emp> emps = empService.getEmpList();
+        log.info("查询所有员工：{}", emps);
+        return Result.success(emps);
+    }
 }

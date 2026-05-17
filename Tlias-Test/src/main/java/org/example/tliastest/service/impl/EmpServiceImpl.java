@@ -122,4 +122,9 @@ public class EmpServiceImpl implements EmpService {
     public List<Map<String, Object>> getEmpGenderData() {
         return empMapper.selectEmpGenderData();
     }
+
+    @Override
+    public List<Emp> getEmpList() {
+        return empMapper.selectAll(null);
+    }
 }

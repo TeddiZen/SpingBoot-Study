@@ -20,4 +20,6 @@ public interface EmpService {
     JobObjective getJobObjective();
 
     List<Map<String, Object>> getEmpGenderData();
+
+    List<Emp> getEmpList();
 }

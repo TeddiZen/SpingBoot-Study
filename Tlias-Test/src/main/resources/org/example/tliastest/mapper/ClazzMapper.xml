@@ -11,7 +11,13 @@
         delete from clazz where id = #{id}
     </delete>
     <select id="selectByQueryParam" parameterType="org.example.tliastest.pojo.ClazzQueryParam" resultType="org.example.tliastest.pojo.Clazz">
-        select c.id, c.name, c.room, c.begin_date, c.end_date, c.master_id, c.subject, c.create_time, c.update_time, e.name as masterName from clazz c left join emp e on c.master_id = e.id where c.name like concat('%', #{name}, '%')
+        select c.id, c.name, c.room, c.begin_date, c.end_date, c.master_id, c.subject, c.create_time, c.update_time, e.name as masterName
+        from clazz c left join emp e on c.master_id = e.id
+        <where>
+            <if test="name != null and name != ''"> and c.name like concat('%', #{name}, '%')</if>
+            <if test="begin != null and begin != ''"> and c.begin_date &gt;= #{begin}</if>
+            <if test="end != null and end != ''"> and c.end_date &lt;= #{end}</if>
+        </where>
     </select>
     <select id="selectByPrimaryKey" resultType="org.example.tliastest.pojo.Clazz">
         select * from clazz where id = #{id}
