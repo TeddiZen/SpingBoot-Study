@@ -25,4 +25,10 @@ public class GlobalExceptionHandle {
         String[] arr = msg.split(" ");
         return Result.error(arr[2] + "已存在！");
     }
+
+    @ExceptionHandler
+    public Result handleException(DelClazzException e){
+        log.error("全局异常处理",e);
+        return Result.error(e.getMessage());
+    }
 }

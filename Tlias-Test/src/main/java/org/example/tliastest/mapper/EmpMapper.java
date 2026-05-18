@@ -28,7 +28,9 @@ public interface EmpMapper {
 
     void updateEmp(Emp emp);
 
+    @MapKey("job")
     List<Map<String, Object>> selectJobObjective();
 
+    @MapKey("gender")
     List<Map<String, Object>> selectEmpGenderData();
 }

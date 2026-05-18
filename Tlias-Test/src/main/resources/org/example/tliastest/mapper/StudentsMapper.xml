@@ -82,4 +82,8 @@
         group by clazz.name
     </select>
 
+    <select id="selectByClazzId" resultType="java.lang.Integer">
+        select count(*) as count from student where clazz_id = #{clazzId}
+    </select>
+
 </mapper>

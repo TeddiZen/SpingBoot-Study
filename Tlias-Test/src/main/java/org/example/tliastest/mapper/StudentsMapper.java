@@ -31,5 +31,8 @@ public interface StudentsMapper {
     @MapKey("degree")
     List<Map<String, Object>> getStudentDegreeData();
 
+    @MapKey("clazz")
     List<Map<String, Object>> getStudentCountData();
+
+    Integer selectByClazzId(Integer clazzId);
 }
