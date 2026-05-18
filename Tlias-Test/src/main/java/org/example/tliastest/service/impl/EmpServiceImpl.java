@@ -10,6 +10,7 @@ import org.example.tliastest.mapper.EmpMapper;
 import org.example.tliastest.pojo.*;
 import org.example.tliastest.service.EmpLogService;
 import org.example.tliastest.service.EmpService;
+import org.example.tliastest.utils.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -134,7 +135,8 @@ public class EmpServiceImpl implements EmpService {
         if (loginObjective == null) {
             return null;
         }else {
-            loginObjective.setToken("token");
+            Map<String, Object> claims = Map.of("id", loginObjective.getId(), "username", loginObjective.getUsername());
+            loginObjective.setToken(JwtUtils.generateToken(claims));
             return loginObjective;
         }
     }
