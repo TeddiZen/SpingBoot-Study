@@ -43,6 +43,12 @@
         from emp group by gender
     </select>
 
+    <!-- 登录查询 -->
+    <select id="selectByUsernamePassword" resultType="org.example.tliastest.pojo.LoginObjective">
+        select id, username, name from emp
+        where username = #{username} and password = #{password}
+    </select>
+
     <delete id="delEmp">
         delete from emp
         <where>

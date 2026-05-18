@@ -22,4 +22,6 @@ public interface EmpService {
     List<Map<String, Object>> getEmpGenderData();
 
     List<Emp> getEmpList();
+
+    LoginObjective login(Emp emp);
 }

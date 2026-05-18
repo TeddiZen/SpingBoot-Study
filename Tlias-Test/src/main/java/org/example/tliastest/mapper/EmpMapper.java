@@ -4,6 +4,7 @@ import org.apache.ibatis.annotations.*;
 import org.example.tliastest.pojo.Emp;
 import org.example.tliastest.pojo.EmpQueryParam;
 import org.example.tliastest.pojo.JobObjective;
+import org.example.tliastest.pojo.LoginObjective;
 
 import java.util.List;
 import java.util.Map;
@@ -33,4 +34,6 @@ public interface EmpMapper {
 
     @MapKey("gender")
     List<Map<String, Object>> selectEmpGenderData();
+
+    LoginObjective selectByUsernamePassword(Emp emp);
 }

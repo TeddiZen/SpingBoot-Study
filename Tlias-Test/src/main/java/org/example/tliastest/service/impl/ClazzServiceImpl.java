@@ -53,16 +53,18 @@ public class ClazzServiceImpl implements ClazzService {
 
     @Transactional(rollbackFor = Exception.class)
     @Override
-    public void delClass(Integer id){
+    public void delClass(Integer id) {
+        String logInfo = "删除班级" + id;
         try {
             Integer count = studentsMapper.selectByClazzId(id);
             if (count > 0) {
-                throw new DelClazzException("id为" + id + "的班级下有" + count + "个学生，不能删除");
+                throw new DelClazzException("id为" + id + "的班级下有" + count + "个学生，无法删除");
             }
             clazzMapper.deleteByPrimaryKey(id);
+        } catch (DelClazzException e) {
+            throw e;
         } finally {
-            EmpLog log = new EmpLog(null, LocalDateTime.now(), "删除班级" + id);
-            empLogService.insertLog(log);
+            empLogService.insertLog(new EmpLog(null, LocalDateTime.now(), logInfo));
         }
     }
 

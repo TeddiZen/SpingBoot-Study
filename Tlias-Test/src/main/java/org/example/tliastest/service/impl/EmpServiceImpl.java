@@ -127,4 +127,15 @@ public class EmpServiceImpl implements EmpService {
     public List<Emp> getEmpList() {
         return empMapper.selectAll(null);
     }
+
+    @Override
+    public LoginObjective login(Emp emp) {
+        LoginObjective loginObjective = empMapper.selectByUsernamePassword(emp);
+        if (loginObjective == null) {
+            return null;
+        }else {
+            loginObjective.setToken("token");
+            return loginObjective;
+        }
+    }
 }
