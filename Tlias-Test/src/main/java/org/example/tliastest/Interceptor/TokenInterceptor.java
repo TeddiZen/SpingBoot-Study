@@ -27,7 +27,7 @@ public class TokenInterceptor implements HandlerInterceptor {
 
         try {
             Claims claims = JwtUtils.parseToken(token);
-            String username = claims.getSubject();
+            String username = (String) claims.get("username");
 
             // 2. token解析成功，但没有用户信息
             if (username == null) {
