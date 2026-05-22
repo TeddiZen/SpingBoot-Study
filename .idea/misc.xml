@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/MybatisFirst/pom.xml" />
         <option value="$PROJECT_DIR$/Tlias-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/aliyun-oss-spring-boot-autoconfiguredemo/pom.xml" />
       </list>
     </option>
   </component>

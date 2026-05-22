@@ -36,13 +36,13 @@
 2026-05-15 13:55:26.704 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
 2026-05-15 13:55:26.705 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
 2026-05-15 13:55:26.738 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 544 ms
-2026-05-15 13:55:26.897 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'ossOperator': Error creating bean with name 'aliyunOSSOperator' defined in file [E:\code\SpringBoot-Study\Tlias-Test\target\classes\org\example\tliastest\utils\AliyunOSSOperator.class]: Failed to instantiate [org.example.tliastest.utils.AliyunOSSOperator]: Constructor threw exception
+2026-05-15 13:55:26.897 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'ossOperator': Error creating bean with name 'aliyunOSSOperator' defined in file [E:\code\SpringBoot-Study\Tlias-Test\target\classes\org\example\tliastest\utils\AliyunOSSOperator.class]: Failed to instantiate [org.example.oss.AliyunOSSOperator]: Constructor threw exception
 2026-05-15 13:55:26.899 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
 2026-05-15 13:55:26.903 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 2026-05-15 13:55:26.914 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'ossOperator': Error creating bean with name 'aliyunOSSOperator' defined in file [E:\code\SpringBoot-Study\Tlias-Test\target\classes\org\example\tliastest\utils\AliyunOSSOperator.class]: Failed to instantiate [org.example.tliastest.utils.AliyunOSSOperator]: Constructor threw exception
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'ossOperator': Error creating bean with name 'aliyunOSSOperator' defined in file [E:\code\SpringBoot-Study\Tlias-Test\target\classes\org\example\tliastest\utils\AliyunOSSOperator.class]: Failed to instantiate [org.example.oss.AliyunOSSOperator]: Constructor threw exception
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
@@ -66,7 +66,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
 	at org.example.tliastest.TliasTestApplication.main(TliasTestApplication.java:10)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aliyunOSSOperator' defined in file [E:\code\SpringBoot-Study\Tlias-Test\target\classes\org\example\tliastest\utils\AliyunOSSOperator.class]: Failed to instantiate [org.example.tliastest.utils.AliyunOSSOperator]: Constructor threw exception
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'aliyunOSSOperator' defined in file [E:\code\SpringBoot-Study\Tlias-Test\target\classes\org\example\tliastest\utils\AliyunOSSOperator.class]: Failed to instantiate [org.example.oss.AliyunOSSOperator]: Constructor threw exception
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
@@ -80,13 +80,13 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
 	... 22 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.tliastest.utils.AliyunOSSOperator]: Constructor threw exception
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.example.oss.AliyunOSSOperator]: Constructor threw exception
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338)
 	... 33 common frames omitted
-Caused by: java.lang.NullPointerException: Cannot invoke "org.example.tliastest.utils.AliyunOSSProperties.getEndpoint()" because "this.ossProperties" is null
-	at org.example.tliastest.utils.AliyunOSSOperator.<init>(AliyunOSSOperator.java:19)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.example.oss.AliyunOSSProperties.getEndpoint()" because "this.ossProperties" is null
+	at org.example.oss.AliyunOSSOperator.<init>(AliyunOSSOperator.java:19)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)

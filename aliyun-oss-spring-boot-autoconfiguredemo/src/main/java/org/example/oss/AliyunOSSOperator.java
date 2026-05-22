@@ -1,4 +1,4 @@
-package org.example.tliastest.utils;
+package org.example.oss;
 
 import com.aliyun.oss.*;
 import com.aliyun.oss.common.auth.CredentialsProviderFactory;
@@ -11,10 +11,13 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
-@Component
 public class AliyunOSSOperator {
-    @Autowired
-    AliyunOSSProperties ossProperties;
+
+    private AliyunOSSProperties ossProperties;
+
+    public  AliyunOSSOperator(AliyunOSSProperties ossProperties) {
+        this.ossProperties = ossProperties;
+    }
 
     public String upload(byte[] content, String originalFilename) throws Exception {
 

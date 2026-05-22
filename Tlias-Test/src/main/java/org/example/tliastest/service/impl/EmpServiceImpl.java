@@ -3,9 +3,7 @@ package org.example.tliastest.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
-import net.sf.jsqlparser.expression.DateTimeLiteralExpression;
 import org.example.tliastest.mapper.EmpExprMapper;
-import org.example.tliastest.mapper.EmpLogMapper;
 import org.example.tliastest.mapper.EmpMapper;
 import org.example.tliastest.pojo.*;
 import org.example.tliastest.service.EmpLogService;
@@ -16,8 +14,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 
-import java.beans.Transient;
-import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
