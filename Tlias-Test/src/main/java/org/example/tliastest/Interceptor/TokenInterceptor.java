@@ -18,7 +18,7 @@ public class TokenInterceptor implements HandlerInterceptor {
 
             // 1. 没有token
         if (token == null || token.isEmpty()) {
-            log.error("token is empty");
+            log.error("请求头中没有token");
             response.setContentType("application/json;charset=utf-8");
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             response.getWriter().write("{\"code\":401,\"msg\":\"未登录，请先登录\"}");

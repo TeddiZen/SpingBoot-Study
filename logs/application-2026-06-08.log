@@ -1,0 +1,176 @@
+2026-06-08 00:30:37.985 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:30:37.995 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:30:38.029 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:30:38.029 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 44ms
+2026-06-08 00:30:38.029 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:43:50.050 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:43:50.062 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:43:50.097 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:43:50.097 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 47ms
+2026-06-08 00:43:50.097 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:43:58.730 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:43:58.731 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:43:58.748 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:43:58.748 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 18ms
+2026-06-08 00:43:58.748 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:44:05.227 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.delEmp
+2026-06-08 00:44:05.363 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 删除员工的id列表：51
+2026-06-08 00:44:05.363 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 136ms
+2026-06-08 00:44:05.363 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.delEmp
+2026-06-08 00:44:05.377 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:44:05.378 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:44:05.387 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:44:05.387 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 10ms
+2026-06-08 00:44:05.387 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:44:15.222 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:44:15.222 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:44:15.231 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:44:15.231 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-08 00:44:15.231 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:44:16.366 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:44:16.368 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:44:16.373 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:44:16.373 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 7ms
+2026-06-08 00:44:16.374 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:44:20.093 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.delEmp
+2026-06-08 00:44:20.100 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 删除员工的id列表：47
+2026-06-08 00:44:20.100 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-08 00:44:20.100 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.delEmp
+2026-06-08 00:44:20.111 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:44:20.111 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:44:20.120 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:44:20.120 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-08 00:44:20.120 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:48:34.278 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:48:34.279 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:48:34.296 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:48:34.297 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 19ms
+2026-06-08 00:48:34.297 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:48:38.512 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:48:38.513 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:48:38.526 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:48:38.527 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 15ms
+2026-06-08 00:48:38.527 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:48:40.676 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:48:40.677 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:48:40.691 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:48:40.691 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 15ms
+2026-06-08 00:48:40.691 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:48:42.297 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:48:42.298 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:48:42.305 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:48:42.305 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-08 00:48:42.306 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:48:45.965 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:48:45.965 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:48:45.974 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:48:45.975 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 10ms
+2026-06-08 00:48:45.975 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:48:51.836 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.delEmp
+2026-06-08 00:48:51.849 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 删除员工的id列表：48
+2026-06-08 00:48:51.849 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 13ms
+2026-06-08 00:48:51.849 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.delEmp
+2026-06-08 00:48:51.860 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:48:51.860 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:48:51.869 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:48:51.869 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-08 00:48:51.869 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:48:51.873 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:48:51.873 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:48:51.880 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:48:51.880 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 7ms
+2026-06-08 00:48:51.880 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:52:03.239 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:52:03.242 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:52:03.247 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:52:03.247 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-08 00:52:03.247 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:52:27.507 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.addEmp
+2026-06-08 00:52:27.508 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 添加员工：Emp(id=null, username=1, password=null, name=2, gender=1, phone=11111111111, job=2, salary=1111, image=, entryDate=2026-06-02, deptId=null, createTime=null, updateTime=null, deptName=1, exprList=[])
+2026-06-08 00:52:27.553 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 46ms
+2026-06-08 00:52:27.553 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.addEmp
+2026-06-08 00:52:27.577 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:52:27.577 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:52:27.584 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:52:27.584 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 7ms
+2026-06-08 00:52:27.584 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:52:43.289 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:52:43.289 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:52:43.297 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:52:43.297 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-08 00:52:43.297 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:52:48.357 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:52:48.357 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:52:48.370 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:52:48.370 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 13ms
+2026-06-08 00:52:48.370 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:52:50.036 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:52:50.036 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:52:50.044 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:52:50.044 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-08 00:52:50.044 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 00:53:30.022 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 00:53:30.022 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 00:53:30.034 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 00:53:30.034 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 12ms
+2026-06-08 00:53:30.034 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 01:01:24.234 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 01:01:24.236 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 01:01:24.244 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 01:01:24.244 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 10ms
+2026-06-08 01:01:24.244 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 01:01:26.774 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 01:01:26.775 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 01:01:26.784 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 01:01:26.784 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 10ms
+2026-06-08 01:01:26.784 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 01:01:32.530 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.delEmp
+2026-06-08 01:01:32.576 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 删除员工的id列表：52,50
+2026-06-08 01:01:32.576 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 46ms
+2026-06-08 01:01:32.576 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.delEmp
+2026-06-08 01:01:32.587 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 01:01:32.587 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 01:01:32.595 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 01:01:32.595 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-08 01:01:32.595 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 01:02:25.172 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08 01:02:25.233 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-08 01:02:25.247 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-08 01:02:25.251 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-08 22:57:52.005 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 28388 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-06-08 22:57:52.008 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-08 22:57:52.795 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-08 22:57:52.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-08 22:57:52.803 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-08 22:57:52.804 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-08 22:57:52.847 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 805 ms
+2026-06-08 22:57:53.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-08 22:57:53.411 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-08 22:57:53.414 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.956 seconds (process running for 3.163)
+2026-06-08 22:57:58.561 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-08 22:57:58.561 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-08 22:57:58.562 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-08 22:57:58.606 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-08 22:57:58.606 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-08 22:57:58.768 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-08 22:57:59.171 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15e808f8
+2026-06-08 22:57:59.173 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-08 22:57:59.260 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-08 22:57:59.261 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 655ms
+2026-06-08 22:57:59.261 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-08 23:36:52.487 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-08 23:36:52.492 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-08 23:36:52.574 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-08 23:38:23.769 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-08 23:38:23.769 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-08 23:38:23.775 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-08 23:38:40.292 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-08 23:38:40.292 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-08 23:38:40.296 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-08 23:39:29.149 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-08 23:39:29.149 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-08 23:39:29.153 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-08 23:58:49.624 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-08 23:58:49.682 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-08 23:58:49.691 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-08 23:58:49.697 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

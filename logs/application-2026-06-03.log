@@ -1,0 +1,223 @@
+2026-06-03 00:02:02.603 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:02:02.613 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：48
+2026-06-03 00:02:02.628 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=48, username=测试OOS, password=null, name=OOS, gender=1, phone=12233330000, job=2, salary=2233, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/723b79a7-8812-4a85-a104-a45d456b492a.jpg, entryDate=2026-05-03, deptId=12, createTime=2026-05-22T18:35:21, updateTime=2026-06-02T23:31:53, deptName=检查部, exprList=[EmpExpr(id=null, empId=48, begin=null, end=null, company=阿萨斯, job=null)])
+2026-06-03 00:02:02.628 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 25ms
+2026-06-03 00:02:02.628 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:03:04.632 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:03:04.632 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:03:04.645 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:03:04.645 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 13ms
+2026-06-03 00:03:04.645 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:03:11.251 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:03:11.251 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：48
+2026-06-03 00:03:11.265 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=48, username=测试OOS, password=null, name=OOS, gender=1, phone=12233330000, job=2, salary=2233, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/723b79a7-8812-4a85-a104-a45d456b492a.jpg, entryDate=2026-05-03, deptId=12, createTime=2026-05-22T18:35:21, updateTime=2026-06-02T23:31:53, deptName=检查部, exprList=[EmpExpr(id=null, empId=48, begin=null, end=null, company=阿萨斯, job=null)])
+2026-06-03 00:03:11.265 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 14ms
+2026-06-03 00:03:11.265 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:03:48.313 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:03:48.313 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:03:48.329 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:03:48.329 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 16ms
+2026-06-03 00:03:48.329 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:03:51.081 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:03:51.081 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:03:51.121 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-05-21T22:13:42, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-05-14, end=2026-06-18, company=12312, job=567yey)])
+2026-06-03 00:03:51.121 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 40ms
+2026-06-03 00:03:51.121 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:04:17.735 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:04:17.736 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:04:17.775 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-05-21T22:13:42, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-05-14, end=2026-06-18, company=12312, job=567yey)])
+2026-06-03 00:04:17.775 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 40ms
+2026-06-03 00:04:17.776 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:14:50.076 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:14:50.076 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:14:50.091 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-05-21T22:13:42, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-05-14, end=2026-06-18, company=12312, job=567yey)])
+2026-06-03 00:14:50.091 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 15ms
+2026-06-03 00:14:50.091 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:19:01.790 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:19:01.790 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:19:01.870 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:19:01.870 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 80ms
+2026-06-03 00:19:01.870 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:19:11.263 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:19:11.263 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:19:11.275 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:19:11.275 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 12ms
+2026-06-03 00:19:11.275 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:19:17.174 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:19:17.174 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:19:17.188 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-05-21T22:13:42, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-05-14, end=2026-06-18, company=12312, job=567yey)])
+2026-06-03 00:19:17.188 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 14ms
+2026-06-03 00:19:17.188 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:22:47.327 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:22:47.327 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:22:47.338 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:22:47.338 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 11ms
+2026-06-03 00:22:47.338 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:22:54.861 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:22:54.861 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:22:54.873 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:22:54.873 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 12ms
+2026-06-03 00:22:54.873 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:22:55.857 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:22:55.857 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:22:55.883 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-05-21T22:13:42, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-05-14, end=2026-06-18, company=12312, job=567yey)])
+2026-06-03 00:22:55.883 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 26ms
+2026-06-03 00:22:55.883 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:23:10.089 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:23:10.089 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：36
+2026-06-03 00:23:10.108 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=36, username=linghuchong, password=123456, name=令狐冲, gender=1, phone=18809091212, job=2, salary=6800, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2023-10-19, deptId=2, createTime=2023-10-20T20:44:54, updateTime=2023-11-09T09:41:04, deptName=教研部, exprList=[])
+2026-06-03 00:23:10.108 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 19ms
+2026-06-03 00:23:10.108 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:25:49.018 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:25:49.020 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:25:49.028 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:25:49.028 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 10ms
+2026-06-03 00:25:49.028 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:25:53.811 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:25:53.811 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:25:53.839 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-05-21T22:13:42, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-05-14, end=2026-06-18, company=12312, job=567yey)])
+2026-06-03 00:25:53.839 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 28ms
+2026-06-03 00:25:53.839 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:26:17.435 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.updateEmp
+2026-06-03 00:26:17.461 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 更新员工：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:26:17.436778300, deptName=宣传部, exprList=[EmpExpr(id=1, empId=41, begin=2026-06-11, end=2026-07-15, company=123, job=567yey), EmpExpr(id=2, empId=41, begin=2026-06-08, end=2026-07-23, company=呜呜呜, job=222sss)])
+2026-06-03 00:26:17.461 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 26ms
+2026-06-03 00:26:17.461 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.updateEmp
+2026-06-03 00:26:17.486 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:26:17.487 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:26:17.495 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:26:17.495 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-03 00:26:17.495 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:26:20.979 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:26:20.979 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:26:21.093 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:26:17, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-15, company=123, job=567yey), EmpExpr(id=null, empId=41, begin=2026-06-08, end=2026-07-23, company=呜呜呜, job=222sss)])
+2026-06-03 00:26:21.093 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 114ms
+2026-06-03 00:26:21.093 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:32:19.107 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:32:19.107 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:32:19.118 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:32:19.118 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 11ms
+2026-06-03 00:32:19.118 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:32:19.193 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:32:19.193 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:32:19.201 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:32:19.201 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-03 00:32:19.201 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:32:25.933 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:32:25.933 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:32:25.967 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:26:17, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-15, company=123, job=567yey), EmpExpr(id=null, empId=41, begin=2026-06-08, end=2026-07-23, company=呜呜呜, job=222sss)])
+2026-06-03 00:32:25.967 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 34ms
+2026-06-03 00:32:25.968 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:32:48.156 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.updateEmp
+2026-06-03 00:32:48.171 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 更新员工：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:32:48.157828300, deptName=宣传部, exprList=[EmpExpr(id=1, empId=41, begin=2026-06-11, end=2026-07-22, company=我是歌手, job=钱啊武清区), EmpExpr(id=2, empId=41, begin=2026-05-13, end=2026-06-25, company=喂喂喂, job=请求)])
+2026-06-03 00:32:48.171 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 15ms
+2026-06-03 00:32:48.171 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.updateEmp
+2026-06-03 00:32:48.201 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:32:48.201 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:32:48.208 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:32:48.208 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 7ms
+2026-06-03 00:32:48.208 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:32:50.150 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:32:50.150 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：48
+2026-06-03 00:32:50.160 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=48, username=测试OOS, password=null, name=OOS, gender=1, phone=12233330000, job=2, salary=2233, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/723b79a7-8812-4a85-a104-a45d456b492a.jpg, entryDate=2026-05-03, deptId=12, createTime=2026-05-22T18:35:21, updateTime=2026-06-02T23:31:53, deptName=检查部, exprList=[EmpExpr(id=null, empId=48, begin=null, end=null, company=阿萨斯, job=null)])
+2026-06-03 00:32:50.160 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 10ms
+2026-06-03 00:32:50.160 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:32:52.886 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:32:52.886 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:32:52.896 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:32:48, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-22, company=我是歌手, job=钱啊武清区), EmpExpr(id=null, empId=41, begin=2026-05-13, end=2026-06-25, company=喂喂喂, job=请求)])
+2026-06-03 00:32:52.897 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 11ms
+2026-06-03 00:32:52.897 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:35:10.026 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:35:10.026 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:35:10.038 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:35:10.038 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 12ms
+2026-06-03 00:35:10.038 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:35:51.091 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:35:51.091 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:35:51.136 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:32:48, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-22, company=我是歌手, job=钱啊武清区), EmpExpr(id=null, empId=41, begin=2026-05-13, end=2026-06-25, company=喂喂喂, job=请求)])
+2026-06-03 00:35:51.136 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 45ms
+2026-06-03 00:35:51.136 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:36:22.431 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:36:22.431 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:36:22.448 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:32:48, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-22, company=我是歌手, job=钱啊武清区), EmpExpr(id=null, empId=41, begin=2026-05-13, end=2026-06-25, company=喂喂喂, job=请求)])
+2026-06-03 00:36:22.448 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 17ms
+2026-06-03 00:36:22.448 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:36:29.270 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:36:29.270 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：48
+2026-06-03 00:36:29.285 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=48, username=测试OOS, password=null, name=OOS, gender=1, phone=12233330000, job=2, salary=2233, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/723b79a7-8812-4a85-a104-a45d456b492a.jpg, entryDate=2026-05-03, deptId=12, createTime=2026-05-22T18:35:21, updateTime=2026-06-02T23:31:53, deptName=检查部, exprList=[EmpExpr(id=null, empId=48, begin=null, end=null, company=阿萨斯, job=null)])
+2026-06-03 00:36:29.285 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 15ms
+2026-06-03 00:36:29.285 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:36:36.643 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:36:36.644 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:36:36.659 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:32:48, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-22, company=我是歌手, job=钱啊武清区), EmpExpr(id=null, empId=41, begin=2026-05-13, end=2026-06-25, company=喂喂喂, job=请求)])
+2026-06-03 00:36:36.659 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 16ms
+2026-06-03 00:36:36.659 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:38:16.693 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:38:16.693 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:38:16.701 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:38:16.701 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-03 00:38:16.702 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:38:16.765 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:38:16.765 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:38:16.774 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:38:16.774 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-03 00:38:16.774 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:38:19.589 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:38:19.589 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:38:19.601 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:32:48, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-22, company=我是歌手, job=钱啊武清区), EmpExpr(id=null, empId=41, begin=2026-05-13, end=2026-06-25, company=喂喂喂, job=请求)])
+2026-06-03 00:38:19.602 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 13ms
+2026-06-03 00:38:19.602 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:39:27.347 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:39:27.348 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:39:27.356 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:39:27.356 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-03 00:39:27.356 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:39:33.451 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:39:33.451 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：41
+2026-06-03 00:39:33.468 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=41, username=teddi, password=null, name=哲迪君, gender=1, phone=12344446666, job=4, salary=12000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/05/fe80d8f3-726a-475e-9b2b-7f6660ee772f.jpg, entryDate=2026-05-05, deptId=8, createTime=2026-05-15T13:58:23, updateTime=2026-06-03T00:32:48, deptName=宣传部, exprList=[EmpExpr(id=null, empId=41, begin=2026-06-11, end=2026-07-22, company=我是歌手, job=钱啊武清区), EmpExpr(id=null, empId=41, begin=2026-05-13, end=2026-06-25, company=喂喂喂, job=请求)])
+2026-06-03 00:39:33.468 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 17ms
+2026-06-03 00:39:33.468 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:40:10.750 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:40:10.750 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：30
+2026-06-03 00:40:10.771 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=21333, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=10, createTime=2023-10-20T16:35:33, updateTime=2026-05-16T17:26:05, deptName=人事部, exprList=[EmpExpr(id=null, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
+2026-06-03 00:40:10.771 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 21ms
+2026-06-03 00:40:10.771 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:44:10.262 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.UploadController - 上传文件: 9df29f4bf80b06d542b0b55f335fd3e7888765a4.jpg@1256w_748h_!web-article-pic.webp
+2026-06-03 00:44:11.539 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.UploadController - 上传成功: https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/06/bf27b817-5c9d-4233-8de8-f0ebb1f19c46.webp
+2026-06-03 00:44:18.346 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.updateEmp
+2026-06-03 00:44:18.370 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 更新员工：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=21333, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=10, createTime=2023-10-20T16:35:33, updateTime=2026-06-03T00:44:18.347895600, deptName=人事部, exprList=[EmpExpr(id=1, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
+2026-06-03 00:44:18.370 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 24ms
+2026-06-03 00:44:18.370 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.updateEmp
+2026-06-03 00:44:18.413 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-03 00:44:18.414 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-03 00:44:18.420 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-03 00:44:18.420 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 7ms
+2026-06-03 00:44:18.420 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-03 00:44:23.400 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:44:23.400 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：20
+2026-06-03 00:44:23.407 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=20, username=ruanxiaoer, password=123456, name=阮小二, gender=1, phone=13309090020, job=2, salary=10800, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2018-01-01, deptId=2, createTime=2023-10-20T16:35:33, updateTime=2023-10-20T16:36:13, deptName=教研部, exprList=[])
+2026-06-03 00:44:23.407 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 7ms
+2026-06-03 00:44:23.407 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:44:25.564 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:44:25.564 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：30
+2026-06-03 00:44:25.572 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=2, salary=21333, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2020-03-01, deptId=10, createTime=2023-10-20T16:35:33, updateTime=2026-06-03T00:44:18, deptName=人事部, exprList=[EmpExpr(id=null, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
+2026-06-03 00:44:25.572 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-03 00:44:25.572 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:44:27.614 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:44:27.614 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：36
+2026-06-03 00:44:27.623 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=36, username=linghuchong, password=123456, name=令狐冲, gender=1, phone=18809091212, job=2, salary=6800, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2023-10-19, deptId=2, createTime=2023-10-20T20:44:54, updateTime=2023-11-09T09:41:04, deptName=教研部, exprList=[])
+2026-06-03 00:44:27.623 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-03 00:44:27.623 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:44:29.363 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:44:29.363 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：22
+2026-06-03 00:44:29.409 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=22, username=ruanxiaoqi, password=123456, name=阮小七, gender=1, phone=13309090022, job=5, salary=5500, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2016-01-01, deptId=3, createTime=2023-10-20T16:35:33, updateTime=2023-10-20T16:36:17, deptName=咨询部, exprList=[])
+2026-06-03 00:44:29.409 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 46ms
+2026-06-03 00:44:29.409 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:44:31.601 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-03 00:44:31.601 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：21
+2026-06-03 00:44:31.610 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=21, username=ruanxiaowu, password=123456, name=阮小五, gender=1, phone=13309090021, job=5, salary=5200, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2015-01-01, deptId=3, createTime=2023-10-20T16:35:33, updateTime=2023-10-20T16:36:15, deptName=咨询部, exprList=[])
+2026-06-03 00:44:31.610 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 9ms
+2026-06-03 00:44:31.610 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-03 00:49:12.587 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-03 00:49:12.643 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-03 00:49:12.653 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-03 00:49:12.657 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

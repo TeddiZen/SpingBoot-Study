@@ -21,8 +21,8 @@ public class EmpController {
 
     /**
      * 分页查询员工列表
-     * @param page
-     * @param pageSize
+     * @param empQueryParam
+     * @return
      */
     @GetMapping
     public Result getEmp(EmpQueryParam empQueryParam){

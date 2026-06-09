@@ -1,10 +1,163 @@
-2026-05-21 22:11:20.220 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 62192 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
-2026-05-21 22:11:20.226 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
-2026-05-21 22:11:21.021 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2026-05-21 22:11:21.030 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2026-05-21 22:11:21.032 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2026-05-21 22:11:21.032 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
-2026-05-21 22:11:21.068 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 809 ms
-2026-05-21 22:11:21.581 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2026-05-21 22:11:21.599 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2026-05-21 22:11:21.605 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.832 seconds (process running for 2.781)
+2026-06-09 16:23:57.803 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 59108 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-06-09 16:23:57.808 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 16:23:58.877 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-09 16:23:58.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-09 16:23:58.888 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 16:23:58.888 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 16:23:58.931 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1084 ms
+2026-06-09 16:23:59.487 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-09 16:23:59.500 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-09 16:23:59.504 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 2.189 seconds (process running for 3.327)
+2026-06-09 16:37:52.649 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09 16:37:52.654 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-09 16:37:52.685 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 31 ms
+2026-06-09 16:37:52.917 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-09 16:37:52.917 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-09 16:37:52.945 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 16:37:53.383 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fad3dc4
+2026-06-09 16:37:53.386 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 16:37:53.561 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-09 16:37:53.819 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-09 16:37:53.821 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-09 16:37:53.823 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-09 16:37:59.842 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 16:37:59.842 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 16:37:59.927 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 16:37:59.927 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 85ms
+2026-06-09 16:37:59.927 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 16:42:53.795 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 16:42:53.796 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 16:42:53.815 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 16:42:53.815 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 20ms
+2026-06-09 16:42:53.815 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 17:49:34.903 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-09 17:49:34.906 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-09 17:49:34.944 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-09 17:49:48.820 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 17:49:48.820 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 17:49:48.836 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 17:49:48.836 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 16ms
+2026-06-09 17:49:48.837 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 17:52:57.980 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-09 17:52:58.053 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-09 17:52:58.074 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 17:52:58.080 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 17:53:02.255 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 15608 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-06-09 17:53:02.258 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 17:53:03.041 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-09 17:53:03.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-09 17:53:03.050 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 17:53:03.050 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 17:53:03.096 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 801 ms
+2026-06-09 17:53:03.635 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-09 17:53:03.650 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-09 17:53:03.655 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.861 seconds (process running for 2.627)
+2026-06-09 17:53:28.469 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09 17:53:28.471 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-09 17:53:28.472 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-09 17:53:28.505 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 17:53:28.505 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 17:53:28.565 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 17:53:28.895 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a9d7539
+2026-06-09 17:53:28.898 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 17:53:28.973 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 17:53:28.973 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 468ms
+2026-06-09 17:53:28.973 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 17:53:32.357 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 17:53:32.357 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 17:53:32.435 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 17:53:32.435 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 78ms
+2026-06-09 17:53:32.435 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 17:53:35.274 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 17:53:35.274 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 17:53:35.281 [http-nio-8080-exec-4] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 17:53:35.281 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 7ms
+2026-06-09 17:53:35.281 [http-nio-8080-exec-4] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 17:53:36.839 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 17:53:36.839 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 17:53:36.847 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 17:53:36.847 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 8ms
+2026-06-09 17:53:36.847 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 17:53:56.107 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-09 17:53:56.107 [http-nio-8080-exec-5] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 1234567
+2026-06-09 17:53:56.111 [http-nio-8080-exec-5] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-09 17:54:05.373 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-09 17:54:05.374 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-09 17:54:05.447 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-09 17:54:08.830 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 17:54:08.831 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 17:54:08.841 [http-nio-8080-exec-7] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 17:54:08.841 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 11ms
+2026-06-09 17:54:08.841 [http-nio-8080-exec-7] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 17:54:21.525 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-09 17:54:21.525 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：49
+2026-06-09 17:54:21.574 [http-nio-8080-exec-8] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=49, username=zahngsan, password=null, name=张三, gender=1, phone=12344442222, job=3, salary=20000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/06/6f24a9d1-19ce-4a4a-95c2-4747daa25e12.png, entryDate=2025-05-26, deptId=null, createTime=2026-06-05T21:53:41, updateTime=2026-06-05T21:53:41, deptName=null, exprList=[EmpExpr(id=null, empId=49, begin=2024-06-11, end=2024-07-18, company=前期五千多, job=迭代器), EmpExpr(id=null, empId=49, begin=2024-06-10, end=2024-07-22, company=科技很过分, job=风格)])
+2026-06-09 17:54:21.579 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 54ms
+2026-06-09 17:54:21.579 [http-nio-8080-exec-8] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-09 17:54:24.333 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-09 17:54:24.333 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：21
+2026-06-09 17:54:24.350 [http-nio-8080-exec-9] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=21, username=ruanxiaowu, password=123456, name=阮小五, gender=1, phone=13309090021, job=5, salary=5200, image=https://web-framework.oss-cn-hangzhou.aliyuncs.com/2023/1.jpg, entryDate=2015-01-01, deptId=3, createTime=2023-10-20T16:35:33, updateTime=2023-10-20T16:36:15, deptName=咨询部, exprList=[])
+2026-06-09 17:54:24.350 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 17ms
+2026-06-09 17:54:24.352 [http-nio-8080-exec-9] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-09 17:54:27.062 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-09 17:54:27.062 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：30
+2026-06-09 17:54:27.076 [http-nio-8080-exec-10] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=30, username=liyun, password=123456, name=李云, gender=1, phone=13309090030, job=4, salary=21333, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/06/4c8ba28a-49b5-4165-9e17-0a4f4eb44eb8.png, entryDate=2020-03-01, deptId=10, createTime=2023-10-20T16:35:33, updateTime=2026-06-05T00:01:37, deptName=人事部, exprList=[EmpExpr(id=null, empId=30, begin=2026-05-23, end=2026-06-25, company=asdasd, job=asd)])
+2026-06-09 17:54:27.076 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 14ms
+2026-06-09 17:54:27.076 [http-nio-8080-exec-10] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-09 17:54:31.981 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getIdEmp
+2026-06-09 17:54:31.982 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 查询员工的id列表：49
+2026-06-09 17:54:31.993 [http-nio-8080-exec-1] INFO  org.example.tliastest.controller.EmpController - 查询出来的员工的列表：Emp(id=49, username=zahngsan, password=null, name=张三, gender=1, phone=12344442222, job=3, salary=20000, image=https://teddizen-java-tesy.oss-cn-guangzhou.aliyuncs.com/2026/06/6f24a9d1-19ce-4a4a-95c2-4747daa25e12.png, entryDate=2025-05-26, deptId=null, createTime=2026-06-05T21:53:41, updateTime=2026-06-05T21:53:41, deptName=null, exprList=[EmpExpr(id=null, empId=49, begin=2024-06-11, end=2024-07-18, company=前期五千多, job=迭代器), EmpExpr(id=null, empId=49, begin=2024-06-10, end=2024-07-22, company=科技很过分, job=风格)])
+2026-06-09 17:54:31.993 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 12ms
+2026-06-09 17:54:31.994 [http-nio-8080-exec-1] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getIdEmp
+2026-06-09 18:05:38.948 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 18:05:38.948 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 18:05:38.961 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 18:05:38.961 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 13ms
+2026-06-09 18:05:38.961 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 18:05:45.721 [SpringApplicationShutdownHook] INFO  org.springframework.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-09 18:05:45.775 [tomcat-shutdown] INFO  org.springframework.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-09 18:05:45.779 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 18:05:45.782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 18:05:49.159 [main] INFO  org.example.tliastest.TliasTestApplication - Starting TliasTestApplication using Java 17.0.18 with PID 14260 (E:\code\SpringBoot-Study\Tlias-Test\target\classes started by TeddiZen in E:\code\SpringBoot-Study)
+2026-06-09 18:05:49.159 [main] INFO  org.example.tliastest.TliasTestApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 18:05:49.827 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-09 18:05:49.833 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-09 18:05:49.834 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-09 18:05:49.834 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-09 18:05:49.868 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 680 ms
+2026-06-09 18:05:50.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-09 18:05:50.319 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-09 18:05:50.323 [main] INFO  org.example.tliastest.TliasTestApplication - Started TliasTestApplication in 1.543 seconds (process running for 2.086)
+2026-06-09 18:05:52.824 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09 18:05:52.824 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-09 18:05:52.825 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-09 18:05:52.838 [http-nio-8080-exec-1] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 18:06:34.232 [http-nio-8080-exec-2] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 18:07:26.871 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-09 18:07:26.873 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-09 18:07:26.888 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 18:07:27.410 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bb7e1b9
+2026-06-09 18:07:27.413 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 18:07:27.514 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-09 18:07:40.925 [http-nio-8080-exec-4] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 19:24:07.345 [http-nio-8080-exec-5] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 19:24:09.645 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 登录前
+2026-06-09 19:24:09.646 [http-nio-8080-exec-6] INFO  org.example.tliastest.controller.LoginController - 登录请求: wuyong, 123456
+2026-06-09 19:24:09.674 [http-nio-8080-exec-6] INFO  org.example.tliastest.aop.TestAspect - 登录后
+2026-06-09 19:24:13.262 [http-nio-8080-exec-7] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 19:35:05.341 [http-nio-8080-exec-8] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 19:35:12.272 [http-nio-8080-exec-9] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 19:35:16.387 [http-nio-8080-exec-10] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 19:35:27.962 [http-nio-8080-exec-1] ERROR o.example.tliastest.Interceptor.TokenInterceptor - token is empty
+2026-06-09 19:36:11.434 [http-nio-8080-exec-2] INFO  o.example.tliastest.Interceptor.TokenInterceptor - 请求通过token校验，继续执行
+2026-06-09 19:36:11.487 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 19:36:11.487 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 19:36:11.622 [http-nio-8080-exec-2] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 19:36:11.622 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 140ms
+2026-06-09 19:36:11.622 [http-nio-8080-exec-2] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
+2026-06-09 19:36:26.241 [http-nio-8080-exec-3] INFO  o.example.tliastest.Interceptor.TokenInterceptor - 请求通过token校验，继续执行
+2026-06-09 19:36:26.243 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作前: EmpController.getEmp
+2026-06-09 19:36:26.243 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询
+2026-06-09 19:36:26.280 [http-nio-8080-exec-3] INFO  org.example.tliastest.controller.EmpController - 分页查询完成
+2026-06-09 19:36:26.281 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作耗时: 38ms
+2026-06-09 19:36:26.281 [http-nio-8080-exec-3] INFO  org.example.tliastest.aop.TestAspect - 员工操作后: EmpController.getEmp
