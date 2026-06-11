@@ -22,14 +22,14 @@ public class TestAspect {
 
     @Around("Loginpointcut()")
     public Object Login(ProceedingJoinPoint pjp) {
-        log.info("登录前");
+        log.info("开始登录");
         Object result = null;
         try {
             result = pjp.proceed();
         } catch (Throwable e) {
             throw new RuntimeException(e);
         }
-        log.info("登录后");
+        log.info("结束登录");
         return result;
     }
 
